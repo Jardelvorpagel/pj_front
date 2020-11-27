@@ -1,4 +1,5 @@
 import Header from 'components/Header'
+import Footer from 'components/Footer'
 import { ThemeProvider } from 'emotion-theming'
 import GlobalStyles from 'components/GlobalStyles/GlobalStyles'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }) {
                 <GlobalStyles />
                 <Header />
                 <Component {...pageProps} />
+                <Footer />
             </ThemeProvider>
         </>
     )

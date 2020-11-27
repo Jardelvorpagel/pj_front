@@ -35,7 +35,7 @@ const HeaderStyle = styled.header`
     position: absolute;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 4;
     padding: 15px 0;
 
     .row {

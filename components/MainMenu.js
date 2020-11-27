@@ -37,6 +37,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li`
     padding: 0 10px;
+    margin-bottom: 0;
 
     a {
         color: #fff;
